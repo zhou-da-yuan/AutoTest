@@ -1,20 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="23039814-9075-4bbf-9946-9fa9f3ed7a2b" name="更改" comment="" />
+    <list default="true" id="23039814-9075-4bbf-9946-9fa9f3ed7a2b" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Spytest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_case/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_case/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_case/test_console.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/log_info.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/read_inter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config_inter.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:/zhou-da-yuan/AutoTest.git",
+    "accountId": "c63b88a8-8086-41d6-82f4-f1330f7307e2"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2k53XfXn00RG6icxQJsHX9Dftxa" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python 测试.Python tests in test_console.py.executor": "Run",
+    "Python 测试.Python 测试 (test1.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_console.py 内).executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.read_con.executor": "Run",
+    "Python.read_inter.executor": "Run",
+    "Python.test1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Pycharm\Spytest\Test_case" />
+      <recent name="D:\Pycharm\Spytest" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -58,15 +113,15 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
