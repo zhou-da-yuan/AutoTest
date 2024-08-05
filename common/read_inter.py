@@ -1,8 +1,10 @@
+# 读取环境配置文件
+
 import yaml
 
-
+file = './config/config_inter.yaml'
 def read_json():
-    with open('D:/Pycharm/Spytest/config/config_inter.yaml', 'r') as f:
+    with open(file, 'r') as f:
         return yaml.load(f,Loader=yaml.FullLoader)
 
 
@@ -15,5 +17,6 @@ def inter(inter):
 
 
 if __name__ == '__main__':
+    file = '../config/config_inter.yaml'
     print(read_json())
     print(inter(181))

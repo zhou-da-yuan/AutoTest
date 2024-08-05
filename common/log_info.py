@@ -1,4 +1,4 @@
-# 创建日志器
+# 日志
 import logging
 
 logger = logging.getLogger("")

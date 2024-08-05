@@ -1,27 +1,30 @@
+# 测试用例
+
+
 import requests
 import pytest
 from requests import session
-from com.read_inter import inter
+from common.read_inter import inter
+
+# s = session()
+# s.verify = False
 
 base_url = inter(181)['base_url']
 user = inter(181)['user']
 password = inter(181)['password']
 
-s = session()
-s.verify = False
-
 
 class TestConsole:
-
-    def test_login(self):
+    def test_login(self, s):
         response = s.request(
             'POST',
             url=base_url + '/console/doLogin',
             data={"user": user, "password": password}
         )
         assert response.status_code == 200
+        assert response.json()['success'] == True
 
-    def test_search_user(self):
+    def test_search_user(self, s):
         response = s.request(
             'GET',
             url=base_url + '/console/consoleUser/list',
@@ -36,7 +39,7 @@ class TestConsole:
         global id
         id = response.json()['users'][0]['id']
 
-    def test_user_detail(self):
+    def test_user_detail(self, s):
         response = s.request(
             'GET',
             url=base_url + '/console/consoleUser/detail',

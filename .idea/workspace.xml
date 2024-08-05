@@ -4,20 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23039814-9075-4bbf-9946-9fa9f3ed7a2b" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Spytest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test_case/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test_case/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test_case/test_console.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/log_info.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/read_inter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config_inter.yaml" afterDir="false" />
+    <list default="true" id="23039814-9075-4bbf-9946-9fa9f3ed7a2b" name="更改" comment="init">
+      <change afterPath="$PROJECT_DIR$/Test_case/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_case/pytest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_case/test_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_case/test_console.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/04e1e454-4f9a-467a-9dff-ac6c7fa9f3ea-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3a340531-5ce4-4bb9-a354-7f14774b3e61-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e7d3a527-a807-40b9-805f-229b33f29a18-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/log_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/log_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/read_inter.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/read_inter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config_inter.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config_inter.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,15 +33,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:/zhou-da-yuan/AutoTest.git",
-    "accountId": "c63b88a8-8086-41d6-82f4-f1330f7307e2"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;zhou-da-yuan&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:zhou-da-yuan/AutoTest.git&quot;,
+    &quot;accountId&quot;: &quot;c63b88a8-8086-41d6-82f4-f1330f7307e2&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2k53XfXn00RG6icxQJsHX9Dftxa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,20 +56,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python 测试.Python tests in test_console.py.executor": "Run",
-    "Python 测试.Python 测试 (test1.py 内).executor": "Run",
-    "Python 测试.Python 测试 (test_console.py 内).executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.read_con.executor": "Run",
-    "Python.read_inter.executor": "Run",
-    "Python.test1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python 测试.Python tests in test_console.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.Python 测试 (test1.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python 测试.Python 测试 (test_console.py 内).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.read_con.executor&quot;: &quot;Run&quot;,
+    &quot;Python.read_inter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Pycharm\Spytest\Test_case" />
@@ -111,6 +116,15 @@
       <option name="presentableId" value="Default" />
       <updated>1722559652007</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <option name="closed" value="true" />
+      <created>1722580324393</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1722580324393</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,5 +137,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
 </project>
