@@ -10,9 +10,11 @@ from common.env import read
 # s = session()
 # s.verify = False
 
-base_url = read(181)['base_url']
-user = read(181)['user']
-password = read(181)['password']
+env = 119
+for i in read(env):
+    base_url = read(env)['base_url']
+    user = read(env)['user']
+    password = read(env)['password']
 
 @allure.title('运营端')
 class TestConsole:
@@ -27,20 +29,27 @@ class TestConsole:
         assert response.json()['success'] == True
 
     @allure.step('搜索用户')
-    def test_search_user(self, s):
+    @pytest.mark.parametrize('case',
+                             yamlUtil('./config/case.yaml').read_yaml()['search_user']['cases'],
+                             ids=[i['case_name'] for i in yamlUtil('./config/case.yaml').read_yaml()['search_user']['cases']],
+                             )
+    def test_search_user(self, s, case):
         response = s.request(
             'GET',
             url=base_url + '/console/consoleUser/list',
             params={
-                "page": 1,
-                "size": 20,
-                "sortFiled": 'id',
-                "sortOrder": 'asc'
+                "page": case['case_params']['page'],
+                "size": case['case_params']['size'],
+                "sortFiled": case['case_params']['sortFiled'],
+                "sortOrder": case['case_params']['sortOrder']
             }
         )
         assert response.status_code == 200
         global id
-        id = response.json()['users'][0]['id']
+        if response.json()['success'] == False:
+            id = 0
+        else:
+            id = response.json()['users'][0]['id']
 
     @allure.step('用户详情')
     def test_user_detail(self, s):

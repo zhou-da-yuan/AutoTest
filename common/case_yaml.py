@@ -22,6 +22,4 @@ class yamlUtil():
 
 if __name__ == '__main__':
     result = yamlUtil("../config/case.yaml").read_yaml()
-    i = 0
-    for i in range(len(result['search_user']['case'])):
-        print(result['search_user']['case'][i])
+    print(result)
