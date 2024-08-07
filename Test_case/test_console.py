@@ -3,6 +3,8 @@ import allure
 import requests
 import pytest
 from requests import session
+
+from common.case_yaml import yamlUtil
 from common.env import read
 
 # s = session()
@@ -31,9 +33,9 @@ class TestConsole:
             url=base_url + '/console/consoleUser/list',
             params={
                 "page": 1,
-                "size": 50,
-                "sortFiled": "id",
-                "sortOrder": "asc"
+                "size": 20,
+                "sortFiled": 'id',
+                "sortOrder": 'asc'
             }
         )
         assert response.status_code == 200

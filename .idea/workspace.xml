@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23039814-9075-4bbf-9946-9fa9f3ed7a2b" name="更改" comment="init">
+      <change afterPath="$PROJECT_DIR$/common/case_yaml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/case.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_case/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_case/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_case/test_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_case/test_console.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/log_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/read_inter.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/env.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config_inter.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,7 @@
     "Python 测试.Python tests in test_console.py.executor": "Run",
     "Python 测试.Python 测试 (test1.py 内).executor": "Run",
     "Python 测试.Python 测试 (test_console.py 内).executor": "Run",
+    "Python.case_yaml.executor": "Run",
     "Python.env.executor": "Run",
     "Python.main.executor": "Run",
     "Python.read_con.executor": "Run",

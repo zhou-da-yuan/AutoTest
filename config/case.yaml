@@ -1,0 +1,21 @@
+search_user:
+    url: /console/consoleUser/list
+    test_name: 搜索用户
+    case_method: GET
+    case:
+    -
+      case_id: 1
+      case_name: 分页参数错误
+      case_params:
+          page: 1d
+          size: 5e0
+          sortFiled: id
+          sortOrder: asc
+    -
+      case_id: 2
+      case_name: 排序参数错误
+      case_params:
+        page: 1
+        size: 50
+        sortFiled: ss
+        sortOrder: asc
