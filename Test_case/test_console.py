@@ -1,20 +1,20 @@
 # 测试用例
-
-
+import allure
 import requests
 import pytest
 from requests import session
-from common.read_inter import inter
+from common.env import read
 
 # s = session()
 # s.verify = False
 
-base_url = inter(181)['base_url']
-user = inter(181)['user']
-password = inter(181)['password']
+base_url = read(181)['base_url']
+user = read(181)['user']
+password = read(181)['password']
 
-
+@allure.title('运营端')
 class TestConsole:
+    @allure.step('登录')
     def test_login(self, s):
         response = s.request(
             'POST',
@@ -24,6 +24,7 @@ class TestConsole:
         assert response.status_code == 200
         assert response.json()['success'] == True
 
+    @allure.step('搜索用户')
     def test_search_user(self, s):
         response = s.request(
             'GET',
@@ -39,6 +40,7 @@ class TestConsole:
         global id
         id = response.json()['users'][0]['id']
 
+    @allure.step('用户详情')
     def test_user_detail(self, s):
         response = s.request(
             'GET',
