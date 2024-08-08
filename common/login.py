@@ -1,12 +1,8 @@
 # 公共登录接口
-import requests
-from requests import session
 
 from common import env
-from common.env import read
-
+from common.env import read, use
 import urllib3
-
 from common.log import Log
 from common.request import RunMethod
 
@@ -17,8 +13,7 @@ class Login:
 
     def __init__(self):
         # 读取环境配置
-        base = env.use()
-        result = read(base)
+        result = read(use())
         self.base_url = result['base_url']
         self.user = result['user']
         self.password = result['password']
@@ -48,7 +43,7 @@ class Login:
 
     # 获取登录接口cookie
     def get_cookie(self):
-        return Login.login(self).cookies
+        return self.login().cookies
 
     # 关闭session
     def close_session(self):
@@ -58,4 +53,4 @@ class Login:
 if __name__ == '__main__':
     env.file = '../config/env.yaml'
 
-    print(Login().get_session())
+    print(Login().get_cookie())

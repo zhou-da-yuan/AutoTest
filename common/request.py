@@ -1,4 +1,4 @@
-import requests
+
 import urllib3 as urllib3
 from requests import session
 

@@ -1,15 +1,14 @@
 import pytest
-from requests import session
-
+from common import env
+from common.case_yaml import yamlUtil
 from common.login import Login
-from common.request import RunMethod
 
 
+# 登录获取cookies
 @pytest.fixture(scope="class", autouse=True)
-def get_login():
-    s = Login().get_session()
-    yield s
-    s.close_session()
+def login_cookies():
+    cookies = Login().get_cookie()
+    return cookies
 
 
 def pytest_html_report_title(report):

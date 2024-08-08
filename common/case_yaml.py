@@ -24,4 +24,6 @@ class yamlUtil():
 
 if __name__ == '__main__':
     result = yamlUtil("../casedata/case.yaml").read_yaml()
-    print(result)
+    print(result['search_user']['cases'])
+    for i in result['search_user']['cases']:
+        print(i['case_params'])

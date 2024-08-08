@@ -8,13 +8,30 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_case/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_case/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_case/test_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_case/test_console.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/011b2233-9fb4-4d07-a7e4-025f7c9e045f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0a4b8943-cf20-4c09-9479-31fd5bd09058-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0b2a46f7-32c5-445d-a564-e5336744b50c-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/138b3c12-8439-4f72-b12e-9fbc41ba8479-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/19f55821-f0b3-4497-8ba1-eecf0fa5c1ed-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1cb68569-fcdb-4f22-acb5-d440c3f08b47-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/29f34e68-d55a-43e9-84a3-e4071c17f52b-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/363f3403-d19f-4503-b69a-ddf0878e46d8-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3c8e2785-b2de-45b5-9dc7-f9973aa69148-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/574e2ea8-9586-4b4d-957c-02e3afe417d7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/60be3514-0a04-406d-bddf-08a1f2ab3843-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/837b0cef-39dd-41de-9f97-b4dfddec5c5b-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8e068060-e5c8-4a1d-92f3-db84cab023a5-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/994c62c1-529b-4709-96e2-3d064ad94a5e-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9f61cb1e-1420-41a8-b735-093c7f85be5e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b2b4c2ef-48b8-45b4-bee8-ce5d05cab506-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ba055580-7c6f-45cb-9758-c8127d11e2e1-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d92a1c65-028a-410f-ab52-b1ab96f630b1-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/common/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/request.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/env.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/2024_08_08.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024_08_08.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
