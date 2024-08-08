@@ -12,6 +12,7 @@ class RunMethod:
     def __init__(self):
         """session管理器"""
         self.s = session()
+        self.s.verify = False
 
     def api_run(self, method, url, params=None, data=None, json=None, headers=None, **kwargs):
         return self.s.request(method, url, params=params, data=data, json=json, headers=headers, verify=False, **kwargs)

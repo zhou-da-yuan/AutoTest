@@ -64,3 +64,166 @@
 [2024-08-08 09:35:23,076]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
 [2024-08-08 09:35:23,079]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
 [2024-08-08 09:35:23,081]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-08 09:39:06,250]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:39:06,253]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-08 09:39:06,256]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-08 09:39:06,280]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:39:06,572]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723081145683}
+[2024-08-08 09:49:24,648]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:49:24,650]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-08 09:49:24,652]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-08 09:49:24,672]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:49:24,951]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723081764062}
+[2024-08-08 09:49:24,954]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:49:25,111]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723081764220}
+[2024-08-08 09:49:25,370]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:52:03,912]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:52:03,914]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-08 09:52:03,916]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-08 09:52:03,939]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:52:04,229]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723081923334}
+[2024-08-08 09:52:04,232]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:52:04,388]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723081923493}
+[2024-08-08 09:52:04,677]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:53:05,037]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:53:05,040]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-08 09:53:05,042]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-08 09:53:05,061]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:53:05,416]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723081984524}
+[2024-08-08 09:53:05,418]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:53:05,692]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723081984798}
+[2024-08-08 09:53:05,695]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:53:05,868]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723081984975}
+[2024-08-08 09:53:06,123]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:57:41,978]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:57:41,980]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-08 09:57:41,983]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-08 09:57:42,002]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:57:42,250]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723082261358}
+[2024-08-08 09:57:42,252]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:57:42,425]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723082261525}
+[2024-08-08 09:57:42,428]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:57:42,660]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723082261762}
+[2024-08-08 09:57:42,927]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:59:11,585]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:59:11,588]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-08 09:59:11,591]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-08 09:59:11,610]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:59:11,908]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723082351013}
+[2024-08-08 09:59:11,909]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:59:12,101]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723082351209}
+[2024-08-08 09:59:12,104]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 09:59:12,352]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723082351460}
+[2024-08-08 09:59:12,655]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:08:32,342]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:10:57,497]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:11:41,491]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:12:21,088]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:12:21,107]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:12:21,344]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723083140446}
+[2024-08-08 10:13:02,331]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:13:02,349]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:13:02,653]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723083181739}
+[2024-08-08 10:13:59,948]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:13:59,966]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:14:00,249]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723083239343}
+[2024-08-08 10:15:21,333]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:15:21,351]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:15:21,602]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723083320697}
+[2024-08-08 10:18:56,832]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:18:56,850]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:18:57,256]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723083536351}
+[2024-08-08 10:23:13,221]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:23:13,423]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723083792516}
+[2024-08-08 10:53:09,777]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:53:09,800]-log.py]-ERROR:登录失败HTTPSConnectionPool(host='10.50.132.119', port=443): Max retries exceeded with url: /console/doLogin (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)')))
+[2024-08-08 10:58:56,092]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 10:58:56,111]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:00:14,546]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:00:14,565]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:03:48,077]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:03:48,095]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:03:48,392]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723086227459}
+[2024-08-08 11:06:13,214]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:06:13,502]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723086372556}
+[2024-08-08 11:06:52,888]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:06:53,183]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723086412242}
+[2024-08-08 11:07:11,209]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:07:11,227]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:07:11,469]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723086430540}
+[2024-08-08 11:08:25,043]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:08:25,062]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:08:25,359]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723086504423}
+[2024-08-08 11:10:46,009]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:10:46,028]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:10:46,223]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723086645301}
+[2024-08-08 11:21:06,069]-log.py]-WARNING:读取env配置文件出错[Errno 2] No such file or directory: './config/env.yaml'
+[2024-08-08 11:21:17,918]-log.py]-WARNING:读取env配置文件出错[Errno 2] No such file or directory: './config/env.yaml'
+[2024-08-08 11:21:41,850]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:21:50,377]-log.py]-INFO:读取env配置文件成功：119
+[2024-08-08 11:22:01,564]-log.py]-INFO:读取env配置文件成功：119
+[2024-08-08 11:22:47,323]-log.py]-INFO:读取env配置文件成功：119
+[2024-08-08 11:23:18,005]-log.py]-INFO:读取env配置文件成功：119
+[2024-08-08 11:23:18,006]-log.py]-INFO:读取env配置文件成功：119
+[2024-08-08 11:23:18,008]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:23:58,012]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:23:58,365]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723087437419}
+[2024-08-08 11:24:46,643]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:24:46,860]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723087485934}
+[2024-08-08 11:24:46,862]-log.py]-INFO:读取env配置文件成功：119
+[2024-08-08 11:24:46,864]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:24:47,004]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723087486075}
+[2024-08-08 11:25:16,469]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:25:16,946]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723087516002}
+[2024-08-08 11:25:16,948]-log.py]-INFO:读取env配置文件成功：119
+[2024-08-08 11:25:16,950]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:25:16,951]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:25:17,087]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723087516152}
+[2024-08-08 11:26:09,444]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:26:09,665]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723087568731}
+[2024-08-08 11:26:09,667]-log.py]-INFO:读取env配置文件成功：119
+[2024-08-08 11:26:09,668]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:26:09,670]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 11:26:09,830]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723087568898}
+[2024-08-08 13:32:16,090]-log.py]-INFO:读取env配置文件成功：119
+[2024-08-08 13:32:16,092]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:32:16,460]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723095136426}
+[2024-08-08 13:33:34,538]-log.py]-WARNING:读取env配置文件出错name 'env' is not defined
+[2024-08-08 13:33:34,540]-log.py]-WARNING:读取env配置文件出错name 'env' is not defined
+[2024-08-08 13:33:34,542]-log.py]-WARNING:读取env配置文件出错None
+[2024-08-08 13:34:05,784]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:35:27,387]-log.py]-INFO:读取env文件环境成功：119
+[2024-08-08 13:35:27,389]-log.py]-INFO:读取env文件环境成功：119
+[2024-08-08 13:35:27,391]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:35:47,764]-log.py]-INFO:读取env文件环境成功：119
+[2024-08-08 13:35:47,766]-log.py]-INFO:读取env文件环境成功：119
+[2024-08-08 13:35:47,767]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:36:01,503]-log.py]-INFO:读取env文件环境成功：119
+[2024-08-08 13:36:01,504]-log.py]-INFO:读取env配置文件成功：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:37:22,871]-log.py]-INFO:读取env配置文件成功，使用环境：119
+[2024-08-08 13:37:22,873]-log.py]-INFO:读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:37:39,286]-log.py]-INFO:读取env配置文件成功，使用环境：119
+[2024-08-08 13:37:39,287]-log.py]-INFO:读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:37:39,560]-log.py]-INFO:登录成功response:{'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723095459521}
+[2024-08-08 13:38:07,466]-log.py]-INFO:读取env配置文件成功，使用环境：119
+[2024-08-08 13:38:07,468]-log.py]-INFO:读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:38:07,675]-log.py]-INFO:登录成功-response = {'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723095487639}
+[2024-08-08 13:42:21,473]-log.py]-INFO:读取env配置文件成功，使用环境：119
+[2024-08-08 13:42:21,475]-log.py]-INFO:读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:42:21,747]-log.py]-INFO:登录成功-response = {'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723095741712}
+[2024-08-08 13:44:13,344]-log.py]-INFO:读取env配置文件成功，使用环境：119
+[2024-08-08 13:44:13,345]-log.py]-INFO:读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:44:13,522]-log.py]-INFO:登录成功-response = {'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723095853484}
+[2024-08-08 13:45:42,130]-log.py]-INFO:读取env配置文件成功，使用环境：119
+[2024-08-08 13:45:42,132]-log.py]-INFO:读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:45:42,133]-log.py]-INFO:读取env配置文件成功，使用环境：119
+[2024-08-08 13:45:42,135]-log.py]-INFO:读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:45:42,352]-log.py]-INFO:登录成功-response = {'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723095942311}
+[2024-08-08 13:47:49,792]-log.py]-INFO:读取env配置文件成功，使用环境：119
+[2024-08-08 13:47:49,793]-log.py]-INFO:读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:47:50,123]-log.py]-INFO:登录成功-response = {'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723096070089}
+[2024-08-08 13:47:50,125]-log.py]-INFO:读取env配置文件成功，使用环境：119
+[2024-08-08 13:47:50,126]-log.py]-INFO:读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:47:50,128]-log.py]-INFO:读取env配置文件成功，使用环境：119
+[2024-08-08 13:47:50,129]-log.py]-INFO:读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'roleId': '1', 'teamId': '1233423454', 'user': 'superadmin'}
+[2024-08-08 13:47:50,279]-log.py]-INFO:登录成功-response = {'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723096070247}

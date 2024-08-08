@@ -1,17 +1,15 @@
 import pytest
 from requests import session
 
+from common.login import Login
+from common.request import RunMethod
 
 
-@pytest.fixture(scope='session', autouse=True)
-def s():
-    print('开始测试')
-    s = session()
-    s.verify = False
+@pytest.fixture(scope="class", autouse=True)
+def get_login():
+    s = Login().get_session()
     yield s
-    print('结束测试')
-    s.close()
-
+    s.close_session()
 
 
 def pytest_html_report_title(report):

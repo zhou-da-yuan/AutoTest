@@ -8,12 +8,22 @@ file = './config/env.yaml'
 log = Log()
 
 
+def use():
+    try:
+        with open(file, 'r', encoding='utf-8') as f:
+            result = yaml.load(f, Loader=yaml.FullLoader)
+            log.info("读取env配置文件成功，使用环境：{}".format(result['use']))
+            return result['use']
+    except Exception as e:
+        log.warning("读取env文件环境出错{}".format(e))
+
+
 # 读取环境变量，返回字典
 def read(env):
     try:
         with open(file, 'r', encoding='utf-8') as f:
             result = yaml.load(f, Loader=yaml.FullLoader)
-            log.info("读取env配置文件成功：{}".format(result[env]))
+            log.info("读取env配置文件成功，环境配置：{}".format(result[env]))
             return result[env]
     except Exception as e:
         log.warning("读取env配置文件出错{}".format(e))
@@ -32,4 +42,4 @@ def write(env, **kwargs):
 
 if __name__ == '__main__':
     file = '../config/env.yaml'
-    print(read(119)['base_url'])
+    print(read(use()))
