@@ -1,25 +1,27 @@
+# 测试用例操作
+
 import yaml
 
+from common.log import Log
+
+
 class yamlUtil():
-    def __init__(self,yaml_file):
-
-        '''
-        通过init把文件传入到这个类
-        :param yaml_file:
-        '''
+    def __init__(self, yaml_file):
         self.yaml_file = yaml_file
+        self.log = Log()
 
-    #读取ymal文件
+    # 读取yaml文件
     def read_yaml(self):
-        '''
-        读取yaml，将yaml反序列化，就是把我们yaml格式转换成dict格式
-        :return:
-        '''
-        with open(self.yaml_file,encoding="utf-8") as f:
-            value = yaml.load(f,Loader=yaml.FullLoader) #文件流，加载方式
-            return value
+        try:
+            with open(self.yaml_file, encoding="utf-8") as f:
+                value = yaml.load(f, Loader=yaml.FullLoader)
+                self.log.info("读取yaml文件成功：{}".format(self.yaml_file))
+                return value
+        except Exception as e:
+            self.log.error("读取yaml文件出错{}".format(e))
+            print(e)
 
 
 if __name__ == '__main__':
-    result = yamlUtil("../config/case.yaml").read_yaml()
+    result = yamlUtil("../casedata/case.yaml").read_yaml()
     print(result)

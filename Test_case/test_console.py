@@ -10,11 +10,11 @@ from common.env import read
 # s = session()
 # s.verify = False
 
-env = 119
-for i in read(env):
-    base_url = read(env)['base_url']
-    user = read(env)['user']
-    password = read(env)['password']
+env = read(119)
+
+base_url = env['base_url']
+user = env['user']
+password = env['password']
 
 @allure.title('运营端')
 class TestConsole:
@@ -30,8 +30,8 @@ class TestConsole:
 
     @allure.step('搜索用户')
     @pytest.mark.parametrize('case',
-                             yamlUtil('./config/case.yaml').read_yaml()['search_user']['cases'],
-                             ids=[i['case_name'] for i in yamlUtil('./config/case.yaml').read_yaml()['search_user']['cases']],
+                             yamlUtil('./casedata/case.yaml').read_yaml()['search_user']['cases'],
+                             ids=[i['case_name'] for i in yamlUtil('./casedata/case.yaml').read_yaml()['search_user']['cases']],
                              )
     def test_search_user(self, s, case):
         response = s.request(
