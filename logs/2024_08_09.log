@@ -107,3 +107,10 @@
 [2024-08-09 17:10:49,856]-log.py]-INFO:读取env配置文件成功，使用环境：119
 [2024-08-09 17:10:49,858]-log.py]-INFO:读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'user': 'superadmin'}
 [2024-08-09 17:10:50,046]-log.py]-INFO:登录成功-response = {'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723194648970}
+[2024-08-09 17:25:12,579]-log.py]-INFO:读取env配置文件成功，使用环境：119
+[2024-08-09 17:25:12,581]-log.py]-INFO:读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'user': 'superadmin'}
+[2024-08-09 17:25:12,583]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-09 17:25:12,585]-log.py]-INFO:读取yaml文件成功：./casedata/case.yaml
+[2024-08-09 17:25:12,632]-log.py]-INFO:读取env配置文件成功，使用环境：119
+[2024-08-09 17:25:12,634]-log.py]-INFO:读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'user': 'superadmin'}
+[2024-08-09 17:25:13,111]-log.py]-INFO:登录成功-response = {'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723195512021}
