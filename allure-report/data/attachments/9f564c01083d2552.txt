@@ -1,0 +1,2 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): 10.50.132.119:443
+DEBUG    urllib3.connectionpool:connectionpool.py:546 https://10.50.132.119:443 "GET /console/consoleUser/list?page=1&size=50&sortFiled=ss&sortOrder=asc HTTP/11" 200 None

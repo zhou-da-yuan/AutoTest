@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","185","用户详情","Test_case","Fri Aug 09 17:10:50 CST 2024","passed","Fri Aug 09 17:10:50 CST 2024","TestConsole","test_console","",""
+"","211","搜索用户","Test_case","Fri Aug 09 17:10:50 CST 2024","passed","Fri Aug 09 17:10:50 CST 2024","TestConsole","test_console","",""
+"","0","搜索用户","Test_case","Fri Aug 09 17:10:50 CST 2024","skipped","Fri Aug 09 17:10:50 CST 2024","TestConsole","test_console","",""
+"","362","搜索用户","Test_case","Fri Aug 09 17:10:50 CST 2024","passed","Fri Aug 09 17:10:50 CST 2024","TestConsole","test_console","",""

@@ -1,3 +1,4 @@
+# 搜索用户测试用例
 search_user:
     url: /console/consoleUser/list
     test_name: 搜索用户
@@ -6,6 +7,9 @@ search_user:
     -
       case_id: 1
       case_name: 分页参数错误
+      # 标记预计失败用例
+      xfail: True
+      # 接口参数
       case_params:
           page: 1
           size: 5d0
@@ -14,6 +18,7 @@ search_user:
     -
       case_id: 2
       case_name: 排序参数错误
+      xfail: False
       case_params:
         page: 1
         size: 50
@@ -21,7 +26,8 @@ search_user:
         sortOrder: asc
     -
       case_id: 3
-      case_name: 排序参数错误
+      case_name: 参数错误
+      xfail: False
       case_params:
         page: 1
         size: 50

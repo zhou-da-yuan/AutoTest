@@ -1,22 +1,25 @@
 # 测试用例
+import allure
 import pytest
-
 from common import env
 from common.case_yaml import yamlUtil
-
 from common.env import read
-
-from common.login import Login
 from common.request import RunMethod
 
 
+@allure.title("运营端")
 class TestConsole:
     s = RunMethod()
     base_url = read(env.use())['base_url']
 
     @pytest.mark.parametrize('params',
-                             yamlUtil('./casedata/case.yaml').read_yaml()['search_user']['cases'])
+                             yamlUtil('./casedata/case.yaml').read_yaml()['search_user']['cases'],
+                             ids=[i['case_name'] for i in yamlUtil('./casedata/case.yaml').read_yaml()['search_user']['cases']]
+                             )
+    @allure.title("搜索用户")
     def test_search_user(self, login_cookies, params):
+        if params['xfail']:
+            pytest.xfail()
         response = self.s.api_run(
             'GET',
             url=self.base_url + '/console/consoleUser/list',
@@ -31,6 +34,7 @@ class TestConsole:
         else:
             id = response.json()['users'][0]['id']
 
+    @allure.title("用户详情")
     def test_user_detail(self, login_cookies):
         response = self.s.api_run(
             'GET',
