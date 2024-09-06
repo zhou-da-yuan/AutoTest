@@ -91,8 +91,9 @@ class RandomDataGenerator:
     def __init__(self, locale='zh_CN'):
         self.faker = Faker(locale)
 
-    def numerify(self, text='###'):
-        """生成三位随机数字"""
+    def numerify(self, x):
+        text = '#'*x
+        """生成x位随机数字"""
         return self.faker.numerify(text)
 
     def random_digit(self):
@@ -211,7 +212,4 @@ class TimeDataGenerator:
 
 
 if __name__ == '__main__':
-    print(CommonDataGenerator().name())
-    print(TimeDataGenerator().time())
-    print(RandomDataGenerator().random_int())
-    print(CommonDataGenerator().ssn())
+    print(RandomDataGenerator().numerify(11))

@@ -18,7 +18,7 @@ add_user:
     case_id: 1
     case_name: 正向用例
     case_params:
-        account: test${RandomDataGenerator().numerify()}
+        account: test${RandomDataGenerator().numerify(4)}
         nickname: ${faker.name()}
         password: Admin@1234
         roleId: 4
@@ -28,9 +28,34 @@ add_user:
     case_id: 2
     case_name: 正向用例
     case_params:
-      account: test${RandomDataGenerator().numerify()}
+      account: test${RandomDataGenerator().numerify(4)}
       nickname: ${faker.name()}
       password: Admin@1234
       roleId: 4
       divisionCodeList: '0000'
       changePwdFirst: false
+
+search_user:
+  url: /console/consoleUser/list
+  test_name: 查询用户
+  case_method: GET
+  cases:
+  -
+    case_id: 1
+    case_name: 正向用例
+    case_params:
+        keyword:
+        page: 1
+        size: 100
+
+delete_user:
+  url: /console/consoleUser/delete
+  test_name: 删除用户
+  case_method: POST
+  cases:
+  -
+    case_id: 1
+    case_name: 正向用例
+    case_params:
+      userId: ${RandomDataGenerator().numerify(11)}
+

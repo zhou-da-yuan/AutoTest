@@ -6,59 +6,34 @@
   <component name="ChangeListManager">
     <list default="true" id="23039814-9075-4bbf-9946-9fa9f3ed7a2b" name="更改" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_case/test_console.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_case/test_console.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_case/test_console_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_case/test_console_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/6b57a06a55e2eae6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/9f564c01083d2552.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/b3453ece04a46d66.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/bceb6c2bb9fca5f.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/attachments/f54551c30bff4a5e.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/behaviors.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/packages.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/suites.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/suites.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/502e8583df8e3267.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/5ab8a3b658724fa9.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/8675e49d22866674.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/data/test-cases/cb6f3b08dc550b78.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/data/timeline.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/export/influxDbData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/categories-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/duration-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/history-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/history/retry-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-report/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/categories.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/duration-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/duration.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/environment.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/history-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/retry-trend.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/severity.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/status-chart.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/suites.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allure-report/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/allure-report/widgets/summary.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/1ac25662-20ed-46da-858a-292def58e2db-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/2316426c-875e-4c0a-a135-3ecccd1887b7-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/30c74d6e-aa06-4012-8b93-09db7a9792bb-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/34816758-03e1-498a-a7d0-9ebdb6249917-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/5cd4c2f1-6520-415c-a6fd-e1bf1e221424-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/70a9a124-2809-457f-aaa6-ed809259e652-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/88f1547f-7bfb-447e-95c9-dbb11a4cd2ed-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/8b92c0da-f927-4490-81d8-6c31a695c319-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/99a67bf7-74ff-47d3-8da4-bb8479f2ac63-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/a32a5d74-f464-4a2c-9a2b-7504bbbe35e3-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/ca4e8c60-c801-4b59-9032-8c9bdfa17ae4-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/cc7c4669-bd06-4156-88ca-98f5de97b78d-attachment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f0501bb5-6de2-4e92-a62e-a74d74249cf0-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/casedata/case_console_user.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/casedata/case_console_user.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/case_yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/case_yaml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/env.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/faker_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/common/faker_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,35 +73,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
-    &quot;Python 测试.Python tests in test_console.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (test1.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (test_console.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.Python 测试 (test_console_user.py 内).executor&quot;: &quot;Run&quot;,
-    &quot;Python 测试.test_console_user.TestUser 的 Python 测试.executor&quot;: &quot;Run&quot;,
-    &quot;Python.case_xlsx.executor&quot;: &quot;Run&quot;,
-    &quot;Python.case_yaml.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.env.executor&quot;: &quot;Run&quot;,
-    &quot;Python.faker_data.executor&quot;: &quot;Run&quot;,
-    &quot;Python.log.executor&quot;: &quot;Run&quot;,
-    &quot;Python.login.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.read_con.executor&quot;: &quot;Run&quot;,
-    &quot;Python.read_inter.executor&quot;: &quot;Run&quot;,
-    &quot;Python.request.executor&quot;: &quot;Run&quot;,
-    &quot;Python.run.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.use_env.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python 测试.Python tests in test_console.py.executor": "Run",
+    "Python 测试.Python tests in test_console_user.py.executor": "Run",
+    "Python 测试.Python 测试 (test1.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_console.py 内).executor": "Run",
+    "Python 测试.Python 测试 (test_console_user.py 内).executor": "Run",
+    "Python 测试.test_console_user.TestUser 的 Python 测试.executor": "Run",
+    "Python.case_xlsx.executor": "Run",
+    "Python.case_yaml.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "Python.env.executor": "Run",
+    "Python.faker_data.executor": "Run",
+    "Python.log.executor": "Run",
+    "Python.login.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.read_con.executor": "Run",
+    "Python.read_inter.executor": "Run",
+    "Python.request.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.use_env.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Pycharm\Spytest" />
