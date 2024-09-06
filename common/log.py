@@ -3,6 +3,8 @@
 import logging
 import os
 import time
+from colorlog import ColoredFormatter
+
 
 # 日志存放路径
 log_path = os.path.join(os.path.dirname(os.path.dirname(os.path.realpath(__file__))), 'logs')
@@ -21,6 +23,19 @@ class Log:
         # 日志输出格式
         self.formatter = logging.Formatter('[%(asctime)s]-%(filename)s]-%(levelname)s:%(message)s')
 
+        self.formatter_color = ColoredFormatter(
+        "%(log_color)s%(asctime)s - %(levelname)s - %(filename)s - %(message)s",
+        datefmt='%Y-%m-%d %H:%M:%S',
+        reset=True,
+        log_colors={
+            'DEBUG': 'cyan',
+            'INFO': 'green',
+            'WARNING': 'yellow',
+            'ERROR': 'red',
+            'CRITICAL': 'red,bg_white',
+        }
+    )
+
     def __console(self, level, message):
         # 创建一个 FileHandler，用于写到本地
         fh = logging.FileHandler(self.log_name, 'a', "utf-8")
@@ -30,7 +45,7 @@ class Log:
         # 创建一个 StreamHandler,用于输出到控制台
         ch = logging.StreamHandler()
         ch.setLevel(logging.DEBUG)
-        ch.setFormatter(self.formatter)
+        ch.setFormatter(self.formatter_color)
         self.logger.addHandler(ch)
         if level == 'info':
             self.logger.info(message)
@@ -64,3 +79,4 @@ if __name__ == "__main__":
     log.info("---测试开始---")
     log.info("操作步骤1,2,3")
     log.warning("---测试结束---")
+    logging.info("日志信息")

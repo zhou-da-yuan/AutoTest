@@ -1,5 +1,0 @@
-INFO     root:log.py:36 读取env配置文件成功，使用环境：119
-INFO     root:log.py:36 读取env配置文件成功，环境配置：{'base_url': 'https://10.50.132.119', 'password': 'H68j3@%L321', 'user': 'superadmin'}
-DEBUG    urllib3.connectionpool:connectionpool.py:1051 Starting new HTTPS connection (1): 10.50.132.119:443
-DEBUG    urllib3.connectionpool:connectionpool.py:546 https://10.50.132.119:443 "POST /console/doLogin HTTP/11" 200 None
-INFO     root:log.py:36 登录成功-response = {'needChangePassword': False, 'success': True, 'initialized': True, 'needTfa': False, 'ts': 1723194648970}

@@ -10,7 +10,8 @@ def main():
     """
     steps = [
         "venv\\Script\\activate" if WIN else "source venv/bin/activate",
-        "pytest --alluredir=allure-results --clean-alluredir",
+        "python -m pytest --alluredir allure-results --clean-alluredir",
+        "copy environment.properties allure-results\\environment.properties",
         "allure generate allure-results -c -o allure-report",
         "allure open allure-report"
     ]

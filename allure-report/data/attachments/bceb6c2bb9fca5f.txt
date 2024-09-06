@@ -1,2 +1,0 @@
-DEBUG    urllib3.connectionpool:connectionpool.py:291 Resetting dropped connection: 10.50.132.119
-DEBUG    urllib3.connectionpool:connectionpool.py:546 https://10.50.132.119:443 "GET /console/consoleUser/list?page=1&size=50&sortFiled=id&sortOrder=asc HTTP/11" 200 None

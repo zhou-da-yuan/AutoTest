@@ -1,1 +1,1 @@
-[]
+[{"values":["3.12.3"],"name":"Python"},{"values":["Windows-11-10.0.22000-SP0"],"name":"Platform"},{"values":["{'pytest': '8.3.2', 'pluggy': '1.5.0'}"],"name":"Packages"},{"values":["{'allure-pytest': '2.13.5', 'Faker': '28.4.1', 'html': '4.1.1', 'metadata': '3.1.1'}"],"name":"Plugins"},{"values":["D:JDK22"],"name":"JAVA_HOME"},{"values":["https://10.50.44.128"],"name":"base_url"},{"values":["H68j3*#L320"],"name":"password"},{"values":["superadmin"],"name":"user"}]
