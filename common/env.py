@@ -1,10 +1,12 @@
 # 环境配置操作
+import os
 
 import yaml
 
 from common.log import Log
 
-file = './config/env.yaml'
+BASE_PATH = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+file = BASE_PATH + '/config/env.yaml'
 log = Log()
 
 
@@ -41,5 +43,5 @@ def write(env, **kwargs):
 
 
 if __name__ == '__main__':
-    file = '../config/env.yaml'
+    # file = '../config/env.yaml'
     print(read(use()))
